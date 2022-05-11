@@ -40,6 +40,10 @@ default_position = 'top'
 default_height = 30
 
 [[layers]]
+  name = "lang#html"
+# npm install --global vscode-html-languageserver-bin
+
+[[layers]]
   name = "lang#php"
 
 [[layers]]
