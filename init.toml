@@ -28,6 +28,20 @@
     # Enable vim compatible mode, avoid changing origin vim key bindings
     vimcompatible = true
 
+# Custom 
+[options]
+# bootstrap_after = "config#after"                                                                                 
+bootstrap_before = "config#before"
+
+# In your ~/.SpaceVim.d/autoload/config.vim (the loaded vim scricpt file where you can define anything you get in your vim.rc legacy file) :
+
+# func! config#before() abort
+#   let g:mapleader  = ';'
+#   " after this line, when you using <leader> to defind key bindings
+#   " the leader is ;  for example:
+#   nnoremap <leader>w :w<cr> " this mapping means using `;w` to save current file.
+# endf
+
 # Enable autocomplete layer
 [[layers]]
 name = 'autocomplete'
