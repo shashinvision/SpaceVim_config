@@ -7,7 +7,7 @@ func! config#before() abort
    nnoremap <leader>q :q!<cr> " this mapping means using `;q!` to save current file.
    
    " para navegar en el buffer
-   nnoremap <leader>p :bprev<CR>
+   nnoremap <leader>b :bprev<CR>
    nnoremap <leader>n :bnext<CR>
    
    nnoremap <leader>h :split<CR>
