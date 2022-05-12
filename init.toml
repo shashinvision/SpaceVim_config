@@ -42,6 +42,11 @@ bootstrap_before = "config#before"
 #   nnoremap <leader>w :w<cr> " this mapping means using `;w` to save current file.
 # endf
 
+[[layers]]
+    name = 'git'
+[[layers]]
+    name = 'VersionControl'
+
 # Enable autocomplete layer
 [[layers]]
 name = 'autocomplete'
