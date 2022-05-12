@@ -42,6 +42,11 @@ bootstrap_before = "config#before"
 #   nnoremap <leader>w :w<cr> " this mapping means using `;w` to save current file.
 # endf
 
+# need install 
+# pip install --user pynvim
+# or
+# pip3 install --user pynvim
+
 [[layers]]
     name = 'git'
 [[layers]]
